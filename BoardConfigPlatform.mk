@@ -21,7 +21,6 @@ include vendor/sony/yoshino-common/BoardConfigVendor.mk
 ### BOARD
 BOARD_USES_QCOM_HARDWARE := true
 BOARD_VENDOR := sony
-TARGET_BOARD_PLATFORM := msm8998
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno540
 
 ### PROCESSOR

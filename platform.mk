@@ -35,6 +35,9 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 PRODUCT_PACKAGES += \
     fs_config_dirs
 
+# Platform
+TARGET_BOARD_PLATFORM := msm8998
+
 # Enable dynamic partition size
 PRODUCT_USE_DYNAMIC_PARTITION_SIZE := true
 
